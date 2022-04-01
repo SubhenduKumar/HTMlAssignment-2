@@ -1,0 +1,1 @@
+While Convert.ToDouble(actual_amp.ToString("0.00")) >= (Convert.ToDouble(temp_amplitude.ToString("0.00")) + 0.02)
