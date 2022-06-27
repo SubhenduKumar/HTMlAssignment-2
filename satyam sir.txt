@@ -5,3 +5,33 @@ SATYAM GOYAL (RA1811005010009)18:28
 "engines": {
     "node": "16.14.0"
   },
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{public static String FirstNon(String A){
+  String ansStr="";
+  Queue<Character> q=new Queue<>();
+  int freq[]=new int[26];
+  for(int i=0;i<A.length();i++){
+    char currChar=A.charAt(i);
+    freq[currChar-'a']++;
+    if(freq[currChar-'a']==1) q.add(currChar);
+
+    
+  }
+  
+
+  
+}
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+      String A=sc.next();
+      System.out.print(FirstNon(A));
+	}
+}
